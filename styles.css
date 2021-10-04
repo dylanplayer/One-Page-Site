@@ -1,324 +1,267 @@
-html{
-
-    scroll-behavior: smooth;
-
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-
-    margin: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-body::-webkit-scrollbar{
-    display: none;
-}
- 
-.body{
-    -ms-overflow-style: none;
-    scrollbar-width: none;  
+body::-webkit-scrollbar {
+  display: none;
 }
 
-.main-background{
-
-    background-color: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(/assets/building.jpeg);
-    background-size: cover;
-    background-position: top center;
-    height: 90vh;
-
+.body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.navbar{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    color: white;
-
+.main-background {
+  background-attachment: fixed;
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(/assets/building.jpeg);
+  background-size: cover;
+  background-position: top center;
+  height: 90vh;
 }
 
-.nav-button{
-
-    height: fit-content;
-    margin-left: 1rem;
-    border: 2px solid;
-    border-radius: 20px;
-    border-color: transparent;
-    font-weight: bold;
-    padding: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    color: white;
-
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: white;
 }
 
-.nav-learnMore-button{
-
-    background-color: transparent;
-
+.nav-button {
+  height: fit-content;
+  margin-left: 1rem;
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: transparent;
+  font-weight: bold;
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: white;
 }
 
-.nav-contact-button{
-
-    background-color: transparent;
-
+.nav-learnMore-button {
+  background-color: transparent;
 }
 
-.hero{
-
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 70%;
-
+.nav-contact-button {
+  background-color: transparent;
 }
 
-.hero-text{
-
-    text-align: center;
-    font-size: 3rem;
-    width: 30%;
-
+.hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
 }
 
-.hero-button{
-
-    border: 1px solid white;
-    border-radius: 20px;
-    background-color: transparent;
-    color: white;
-    font-size: 1.5rem;
-
+.hero-text {
+  text-align: center;
+  font-size: 3rem;
+  width: 30%;
 }
 
-.hero-button:hover{
-
-    cursor: pointer;
-    background-color: white;
-    color: black;
-
+.hero-button {
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
 }
 
-.info{
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    min-height: 100vh;
-    background-color: black;
-    color: white;
-
+.hero-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
 }
 
-.info-video{
-
-    width: 50vw;
-    height: 50vh;
-    justify-self: flex-start;
-
+.info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
 }
 
-.info-text-container{
-
-    justify-self: flex-end;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    width: 40vw;
-    height: 50vh;
-
+.info-video {
+  width: 50vw;
+  height: 50vh;
+  justify-self: flex-start;
 }
 
-.info-text{
-
-    font-size: 1.5rem;
-
+.info-text-container {
+  justify-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  width: 40vw;
+  height: 50vh;
 }
 
-.info-text-lead{
-
-    font-size: 1.5rem;
-    font-weight: 300;
-
+.info-text {
+  font-size: 1.5rem;
 }
 
-.info-text-img{
-
-    width: 50vw;
-    height: 50vh;
-    background-size: cover;
-    background-position: left;
-
+.info-text-lead {
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
-#info-text-img-2{
-
-    background-image: url(/assets/building-close.jpeg);
-
+.info-text-img {
+  width: 50vw;
+  height: 50vh;
+  background-size: cover;
+  background-position: left;
 }
 
-#info-text-img-3{
-
-    background-image: url(/assets/kitchen-1.jpeg);
-
+#info-text-img-2 {
+  background-image: url(/assets/building-close.jpeg);
 }
 
-#info-text-img-4{
-
-    background-image: url(/assets/livingroom.jpeg);
-
+#info-text-img-3 {
+  background-image: url(/assets/kitchen-1.jpeg);
 }
 
-.views{
-
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-
+#info-text-img-4 {
+  background-image: url(/assets/livingroom.jpeg);
 }
 
-.view{
-
-    height: 50vh;
-    width: 33.33%;
-    background-position: left;
-    background-size: cover;
-
+.views {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
 }
 
-#view-1{
-
-    background-image: url(/assets/wetbar.jpeg);
-
+.view {
+  height: 50vh;
+  width: 33.33%;
+  background-position: left;
+  background-size: cover;
 }
 
-#view-2{
-
-    background-image: url(/assets/foyer.jpeg);
-
+#view-1 {
+  background-image: url(/assets/wetbar.jpeg);
 }
 
-#view-3{
-
-    background-image: url(/assets/dining.jpeg);
-    background-position: left;
-
+#view-2 {
+  background-image: url(/assets/foyer.jpeg);
 }
 
-.stats{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    color: white;
-    text-align: center;
-
+#view-3 {
+  background-image: url(/assets/dining.jpeg);
+  background-position: left;
 }
 
-.stat-row{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
-.stat{
-
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: center;
-    width: 33.33%;
-
+.stat-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
 
-.stat-img{
-
-    width: 40px;
-    height: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-
+.stat {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  width: 33.33%;
 }
 
-.stat-text{
-
-    font-size: 3rem;
-
+.stat-img {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-#contact-container{
-
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    padding-bottom: 10px;
-
+.stat-text {
+  font-size: 3rem;
 }
 
-#contact-container h1{
-
-    font-size: 3rem;
-
+#contact-container {
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 10px;
+  font-family: Helvetica;
 }
 
-#contact-container form{
-
-    color: white;
-    border: 1px solid white;
-    border-radius: 20px;
-    height: 50vh;
-    width: 40vw;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+#contact-container h1 {
+  font-size: 3rem;
 }
 
-#contact-container input, textarea{
-
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 5px;
-    color: white;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    width: 70%;
-
+#contact-container form {
+  color: white;
+  height: 50vh;
+  width: 40vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-#contact-container input{
-
-    width: 30%;
-    text-align: center;
-    
+#contact-container input,
+textarea {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-weight: bold;
 }
 
-#contact-container textarea{
+#contact-container input {
+  width: 45%;
+  text-align: center;
+}
 
-    height: 70%;
+#contact-container textarea {
+  height: 70%;
+  width: 90%;
+}
 
+#submit-button {
+  width: 100px;
+}
+
+#submit-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
